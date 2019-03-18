@@ -1,14 +1,75 @@
-body {
-  margin: 0;
-  padding: 0;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
-    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+ul li {
+  display: block;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
-    monospace;
+.posts {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: auto;
+  font-family: 'Lato', sans-serif;
+}
+
+.post {
+  padding: 20px 20px 40px 20px;
+  background-color: rgb(231, 231, 231);
+  border: 1px solid black;
+  border-radius: 4px;
+  margin: 5px;
+  height: 200px;
+  width: 200px;
+}
+
+h3 {
+  color: rgb(22, 80, 22);
+  border-bottom: 2px solid green;
+}
+
+.nav {
+  width: fit-content;
+  margin: auto;
+}
+
+.menuBtn {
+  padding: 15px;
+  color: rgb(12, 207, 207);
+  background-color: rgb(68, 68, 68);
+  font-family: 'ZCOOL XiaoWei', serif;
+  letter-spacing: 4px;
+  border-radius: 4px;
+  border: none;
+  outline-color: rgb(12, 207, 207);
+  margin: 0 1px;
+  font-size: 20pt;
+  text-shadow: 2px 2px 5px black;
+  cursor: default;
+}
+
+.btn {
+  padding: 10px 15px;
+  border: none;
+  outline: none;
+  background-color: teal;
+  color: white;
+  font-size: 14pt;
+  text-decoration: none;
+  border-radius: 4px;
+  box-shadow: 1px 1px 5px rgb(49, 49, 49);
+  transition: all 250ms ease;
+  font-family: 'Lato', sans-serif;
+  cursor: pointer;
+}
+
+.btn:active {
+  box-shadow: none;
+}
+
+.buttons {
+  display: flex;
+  justify-content: center;
+  margin: 10px;
+}
+
+.buttons button {
+  margin: 5px 40px;
 }
